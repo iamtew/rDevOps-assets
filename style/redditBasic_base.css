@@ -1,3 +1,5 @@
+/* == /r/DevOps theme based on redditBasic == */
+
 /* == redditBassic reddit CSS Theme v1.2 - (http://www.reddit.com/r/redditBasic/)== */
 
 
@@ -5,29 +7,29 @@
 
 BEFORE YOU START:
 
-Make sure you have uploaded the two following images: 
+Make sure you have uploaded the two following images:
 
 1. sprite-icon-16.png
 2. sprite-icon-32.png
 
-You will not be able to save this css if you have not done so. 
+You will not be able to save this css if you have not done so.
 
-----------------------*/ 
+----------------------*/
 
 
 /*----------------------
 
 Font size related
 
-----------------------*/ 
+----------------------*/
 
 h1.wikititle {
     font-size: 30px;
 }
 
-.side .linkinfo, 
-.side .linkinfo .number, 
-.side .linkinfo .word, 
+.side .linkinfo,
+.side .linkinfo .number,
+.side .linkinfo .word,
 .side .titlebox {
     font-size: 12px;
 }
@@ -38,7 +40,7 @@ h1.wikititle {
 .submit-page .roundfield #suggested-reddits,
 #sr-header-area,
 #header-bottom-right .userkarma,
-.side .linkinfo .shortlink, 
+.side .linkinfo .shortlink,
 .side .subscribe-button.fancy-toggle-button.toggle a,
 .side .subButtons span,
 .side .subscribers,
@@ -53,8 +55,8 @@ body .side .title,
 .flat-list,
 .bottommenu,
 .submit-page .roundfield #suggested-reddits,
-#RESShortcuts, 
-.tagline, .comment .author, .menuarea, 
+#RESShortcuts,
+.tagline, .comment .author, .menuarea,
 .flat-list.buttons, .panestack-title ,
 .panestack-title .title {
     font-size: 10px !important;
@@ -65,7 +67,7 @@ body .side .title,
 
 Misc/General
 
-----------------------*/ 
+----------------------*/
 
 body {
     background-color: #FFF;
@@ -91,7 +93,7 @@ html {
 }
 
 
-.tabmenu li.selected a { 
+.tabmenu li.selected a {
     border: 0 !important;
 }
 
@@ -153,7 +155,7 @@ body .content .sitetable .thing.spam, body .sitetable .thing.spam.deleted.link.s
 }
 
 .tagline .author.submitter, .tagline .author.moderator, .tagline .author.friend {
-    color: #fff !important;  
+    color: #fff !important;
 }
 
 /* Spoiler tags */
@@ -191,9 +193,11 @@ a[href$="#spoiler"][title]::before {
 
 Header
 
-----------------------*/ 
+----------------------*/
 
 #header {
+    background: url(%%rDevOps-header%%) no-repeat bottom left;
+    background-size: auto;
     border-bottom: 0 !important;
 
 }
@@ -248,8 +252,8 @@ a#header-img {
 
 Linklisting
 
-----------------------*/ 
- 
+----------------------*/
+
  body .linklisting {
 	bottom: 0px;
 	margin: 0px;
@@ -277,7 +281,7 @@ Linklisting
 
 Link flair
 
-----------------------*/ 
+----------------------*/
 
 .stickied {
     border-right: 10px solid #282  !important;
@@ -382,7 +386,7 @@ Link flair
 
 Sidebar
 
-----------------------*/ 
+----------------------*/
 
 .side {
     margin: 0;
@@ -395,7 +399,7 @@ Sidebar
     border: 0;
 }
 
-.side .collapse-button { 
+.side .collapse-button {
     display:none;
 }
 
@@ -416,7 +420,7 @@ Sidebar
 
 .linkinfo .downvotes .number, .linkinfo .upvotes .number, .linkinfo .score .number {
     font-weight: normal !important;
-    
+
 }
 
 .linkinfo .score {
@@ -518,13 +522,13 @@ Sidebar
 }
 
 
-/* message the moderators */ 
+/* message the moderators */
 .side .sidecontentbox a.helplink {
     float: none;
     margin-top: 4px;
     background-color: #5F99CF !important;
     color: #FFF;
-    display: block;    
+    display: block;
     letter-spacing: 2px;
     text-transform: uppercase;
     border-radius: 3px;
@@ -545,7 +549,7 @@ Sidebar
 }
 
 .morelink {
-    display: block;    
+    display: block;
     letter-spacing: 2px;
     text-transform: uppercase;
     border-radius: 3px;
@@ -656,7 +660,7 @@ body .morelink:hover {
 
 Commentarea
 
-----------------------*/ 
+----------------------*/
 
 .comment .collapsed {
     padding-left: 22px;
@@ -687,11 +691,11 @@ Commentarea
 
 
 .RESCharCounter,
-.commentingAs, 
-#RESShortcuts, 
-.tagline, 
-.comment .author, 
-.menuarea, 
+.commentingAs,
+#RESShortcuts,
+.tagline,
+.comment .author,
+.menuarea,
 .flat-list.buttons,
 .panestack-title ,
 .panestack-title .title {
@@ -701,9 +705,9 @@ Commentarea
 }
 
 
-p.tagline a, 
-.tagline a, 
-.menuarea a, 
+p.tagline a,
+.tagline a,
+.menuarea a,
 .flat-list.buttons a {
     text-decoration: none !important;
     font-weight: normal !important;
@@ -713,10 +717,10 @@ p.tagline a,
     font-weight: bold !important;
 }
 
-p.tagline a:hover, 
-.tagline a:hover, 
-.comment .tagline a.author:hover, 
-.menuarea a:hover, 
+p.tagline a:hover,
+.tagline a:hover,
+.comment .tagline a.author:hover,
+.menuarea a:hover,
 .flat-list.buttons a:hover  {
     text-decoration: underline !important;
 }
@@ -727,7 +731,7 @@ p.tagline a:hover,
     display: block !important;
     padding: 3px 3px 3px 0px !important;
 
- 
+
 }
 
 .commentarea .flat-list.buttons {
@@ -737,7 +741,7 @@ p.tagline a:hover,
     border: 0;
 }
 
-.content .usertext-body, body .content .usertext-body .md { 
+.content .usertext-body, body .content .usertext-body .md {
 margin-left: 0px;
 }
 
@@ -903,7 +907,7 @@ body .comment .comment .comment .comment .comment .comment .comment .comment .co
 
 Wiki pages
 
-----------------------*/ 
+----------------------*/
 
 .wiki-page .wiki-page-content {
     margin: 0;
@@ -948,7 +952,7 @@ div.wiki div.toc>ul:before {
 
 Various pages
 
-----------------------*/ 
+----------------------*/
 .fancy-settings {
     padding: 18px;
 }
@@ -961,7 +965,7 @@ padding: 0px 18px 18px 18px;
 
 Submit page
 
-----------------------*/ 
+----------------------*/
 
 .submit-page div.content {
     margin-left: 18px;
@@ -976,19 +980,19 @@ Submit page
 
 /*----------------------
 Most things icon related. Note: If you do not want the icons to be available for your users you simply add .side before every a, for example:
-a[href*='#icon-'] 
+a[href*='#icon-']
 becomes
 .side a[href*='#icon-']
-The easiest way to do this is with a search and replace query in your favorite editor 
-----------------------*/ 
+The easiest way to do this is with a search and replace query in your favorite editor
+----------------------*/
 a[href*='#icon-'] {
 	color: #000!important;
 	cursor: default;
 }
 
 
-/* remove RES annotation since these aren't really links */ 
-a[href*='#icon-'] + .keyNavAnnotation { 
+/* remove RES annotation since these aren't really links */
+a[href*='#icon-'] + .keyNavAnnotation {
 display:none;
 }
 
@@ -2515,13 +2519,13 @@ a[href='#icon-zoom-in']::before {
 
 a[href='#icon-zoom-out']::before {
     background-position: 0 -12818px;
-} 
+}
 
 /*----------------------
 
 RES nightmode
 
-----------------------*/ 
+----------------------*/
 
 .res-nightmode .linklisting .odd {
 	overflow: hidden !important;
@@ -2570,8 +2574,8 @@ RES nightmode
 
 /* sidebar stuff */
 .res-nightmode .side {
-    margin: 0;  
-    border-left: solid 5px #5A5A5A;  
+    margin: 0;
+    border-left: solid 5px #5A5A5A;
     border-bottom: solid 5px #5A5A5A;
 }
 
@@ -2604,9 +2608,9 @@ RES nightmode
 	background-color: #00060C;
 }
 
-/* message the moderators */ 
+/* message the moderators */
 
-.res-nightmode .sidebox, .res-nightmode .sidebox .spacer { 
+.res-nightmode .sidebox, .res-nightmode .sidebox .spacer {
     background: none !important;
     border: 0;
 }
@@ -2615,7 +2619,7 @@ RES nightmode
     margin-top: 4px;
     background-color: #294763 !important;
     color: #FFF;
-    display: block;    
+    display: block;
     letter-spacing: 2px;
     text-transform: uppercase;
     border-radius: 3px;
@@ -2636,7 +2640,7 @@ RES nightmode
 }
 
 .res-nightmode .morelink {
-    display: block;    
+    display: block;
     letter-spacing: 2px;
     text-transform: uppercase;
     border-radius: 3px;
@@ -2736,9 +2740,9 @@ border-bottom: solid 5px #303030!important;
 
 /* wiki */
 
-.res-nightmode .wiki-page .wiki-page-content { 
+.res-nightmode .wiki-page .wiki-page-content {
     background-color:  #303030;
-    
+
 }
 
 
